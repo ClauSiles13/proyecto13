@@ -4,6 +4,7 @@ import C01component from './component/C01component';
 import C02contador from './component/C02contador';
 import C03dobleestado from './component/C03dobleestado';
 import C04variable from './component/C04variable';
+import C05operadorTernario from './component/C05operadorTernario';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <C03dobleestado/>
       <h1>Componente 4</h1>
       <C04variable xVariable="Hoy dia es viernes..."/>
+      <h1>Componente 5</h1>
+      <C05operadorTernario/>
     </div>
   );
 }
