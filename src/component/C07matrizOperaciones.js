@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
 
-const MatrizOperaciones = () => {
+const C07matrizOperaciones = () => {
 
     const [lista, setLista] = useState([1,2,3,4,5]);
     const [dias, setDias] = useState(["Lunes","Martes","Miercoles","Jueves"]);
@@ -22,7 +22,7 @@ const MatrizOperaciones = () => {
             {
                 uniendoArray.map((item, index) =>
                   <p key={index} >
-                      {item} - {index}
+                      {item}-{index}
                   </p>
                 )
             }
@@ -32,19 +32,19 @@ const MatrizOperaciones = () => {
             <button onClick={agregarNumero}>Agregar numero</button>
             {
                 lista.map((item, index) =>
-                    <p key={index} >
-                        {item} - {index}
+                    <p key={index}>
+                        {item}-{index}
                     </p>
                 )
             }
             <br/>
 
-            <h1>Agregar un textto a un array</h1>
-            <button onClick={agregartexto}>Agregar texto</button>
+            <h1>Agregar un texto a un array</h1>
+            <button onClick={agregarTexto}>Agregar texto</button>
             {
                 dias.map((item, index) =>
-                    <p key={index} >
-                        {item} - {index}
+                    <p key={index}>
+                        {item}-{index}
                     </p>
                 )
             }
@@ -55,4 +55,4 @@ const MatrizOperaciones = () => {
 
 }
 
-export default MatrizOperaciones;
+export default C07matrizOperaciones;
