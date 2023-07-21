@@ -7,7 +7,7 @@ import C04variable from './component/C04variable';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Componente 1</h1>
       <C01component  />
       <h1>Componente 2</h1>
