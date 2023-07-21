@@ -14,11 +14,11 @@ function App() {
       <h1>Componente 2</h1>
       <C02contador />
       <h1>Componente 3</h1>
-      <C03dobleestado/>
+      <C03dobleestado />
       <h1>Componente 4</h1>
       <C04variable xVariable="Hoy dia es viernes..."/>
       <h1>Componente 5</h1>
-      <C05operadorTernario/>
+      <C05operadorTernario />
     </div>
   );
 }
